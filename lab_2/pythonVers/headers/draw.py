@@ -1,22 +1,12 @@
-import sys
-sys.path.append("../../")
 
-import turtle
-
-from pythonVers.headers.graph import Graph
+from matplotlib import pyplot as plt
 
 
 def draw_graph(graph):
-    turtle.tracer(0)
+    print("start drawing graph (this can take several seconds) ....")
     for vertex in graph.vertices:
         for ady_vertex in graph.ady(vertex):
-            turtle.up()
-            turtle.goto(vertex.x*6-350, vertex.y*6-300)
-            turtle.down()
-            turtle.goto(ady_vertex.x*6-350, ady_vertex.y*6-300)
-    turtle.done()
-
-
-graph = Graph()
-draw_graph(graph)
-
+            x_values = [vertex.x, ady_vertex.x]
+            y_values = [vertex.y, ady_vertex.y]
+            plt.plot(x_values, y_values, color='#E3DFDD')
+    print("end drawing graph ....")
