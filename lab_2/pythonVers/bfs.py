@@ -70,6 +70,6 @@ p2_x = int(input())
 print('Ingrese la coordenada y del segundo punto')
 p2_y = int(input())
 
-vertexbegin = Vertex(0, 0)
-vertexend = Vertex(99, 99)
+vertexbegin = Vertex(p1_x, p1_y)
+vertexend = Vertex(p2_x, p2_y)
 draw_graph_bfs(vertexbegin, vertexend)

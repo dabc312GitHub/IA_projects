@@ -39,8 +39,17 @@ def draw_graph_euristic(begin, end):
     print("end drawing euristic ...")
     plt.show()
 
-vertexbegin = Vertex(0, 0)
-vertexend = Vertex(99, 99)
+print('Ingrese la coordenada x del primer punto')
+p1_x = int(input())
+print('Ingrese la coordenada y del primer punto')
+p1_y = int(input())
+print('Ingrese la coordenada x del segundo punto')
+p2_x = int(input())
+print('Ingrese la coordenada y del segundo punto')
+p2_y = int(input())
+
+vertexbegin = Vertex(p1_x, p1_y)
+vertexend = Vertex(p2_x, p2_y)
 draw_graph_euristic(vertexbegin, vertexend)
 
 
