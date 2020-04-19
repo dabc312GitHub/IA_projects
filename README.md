@@ -1,2 +1,3 @@
-# IA_projects
-homeworks and finalPaper
+# REPOSITORIO DE LABORATORIOS DE INTELIGENCIA ARTIFICAL
+# Integrantes:
+- 
