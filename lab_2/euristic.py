@@ -1,12 +1,10 @@
 
-import sys
-sys.path.append("../")
 from matplotlib import pyplot as plt
 import math
 
-from pythonVers.headers.graph import Graph
-from pythonVers.headers.vertex import Vertex
-from pythonVers.headers.draw import draw_graph
+from headers.graph import Graph
+from headers.vertex import Vertex
+from headers.draw import draw_graph
 
 
 def distance(p1, p2):

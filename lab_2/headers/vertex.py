@@ -1,7 +1,7 @@
 
 import random
 
-from pythonVers.settings import base as settings
+from settings import base as settings
 
 
 class Vertex():

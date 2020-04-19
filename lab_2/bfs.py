@@ -1,11 +1,9 @@
 
-import sys
-sys.path.append("../")
 from matplotlib import pyplot as plt
 
-from pythonVers.headers.graph import Graph
-from pythonVers.headers.vertex import Vertex
-from pythonVers.headers.draw import draw_graph
+from headers.graph import Graph
+from headers.vertex import Vertex
+from headers.draw import draw_graph
 
 
 def draw_graph_bfs(begin, end):
@@ -52,7 +50,7 @@ def draw_graph_bfs(begin, end):
         try:
             regresive_next = father[str(regresive)]
         except:
-            print('Excepction Error in Cache, saev the file and run again  the program')
+            print('Excepction Error in Cache, save the file and run again  the program')
             return -1
         x_values = [regresive.x, regresive_next.x]
         y_values = [regresive.y, regresive_next.y]
