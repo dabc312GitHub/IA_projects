@@ -6,4 +6,4 @@ Integrantes:
 - Raymond Rudy Negron Valqui
 
 Ejemplo Busqueda Breadth First Search
-![Alt text](https://drive.google.com/open?id=1xE2-0l4w8o2k74ismpePWykRwUozIZHN)
+![Alt text](https://github.com/dabc312GitHub/IA_projects/blob/master/lab_2/pythonVers/lab2_img/bfs_img.png)
