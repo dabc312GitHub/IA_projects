@@ -1,2 +1,0 @@
-pip install binarytree
-pip install pygame
