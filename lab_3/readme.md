@@ -16,5 +16,8 @@ py game.py
 ## Visualizar por Consola quien gano y cuanto demoró la PC en responder en milisegundos:
 ![Alt text](https://github.com/dabc312GitHub/IA_projects/blob/master/lab_3/img_readme/consola_output.png)
 
-## Con dificultad 1 El hombre vence facilmente:
+## Con dificultad 1 El hombre vence facilmente y la PC no tarda en responder:
 ![Alt text](https://github.com/dabc312GitHub/IA_projects/blob/master/lab_3/img_readme/human_win.png)
+
+## Con dificultad 9 El hombre empata y la PC demora más en responder:
+![Alt text](https://github.com/dabc312GitHub/IA_projects/blob/master/lab_3/img_readme/empateDificultad_9.png)
