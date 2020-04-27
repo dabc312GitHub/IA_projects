@@ -3,6 +3,10 @@
 # maximizing player can get 
 import math 
   
+from binarytree import Node
+root = Node(3)
+
+
 def minmax (curDepth, nodeIndex, 
              maxTurn, scores,  
              targetDepth): 

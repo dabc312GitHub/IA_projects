@@ -12,7 +12,7 @@ print('Binary tree :', root)
 var = root.left
 var.left = Node(22)
 root.pprint(index=True)
-del root[3]
+del root[1]
 
 print('Binary tree :', root)
 

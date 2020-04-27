@@ -3,10 +3,10 @@ MAX, MIN = 1000, -1000
 # Returns optimal value for current player  
 #(Initially called for root and maximizer)  
 def minimax(depth, nodeIndex, maximizingPlayer,  
-            values, alpha, beta):  
+            values, alpha, beta):
    
-    # Terminating condition. i.e  
-    # leaf node is reached  
+    # Terminating condition. i.e
+    # leaf node is reached
     if depth == 3:  
         return values[nodeIndex]  
   
@@ -20,7 +20,7 @@ def minimax(depth, nodeIndex, maximizingPlayer,
             val = minimax(depth + 1, nodeIndex * 2 + i,  
                           False, values, alpha, beta)  
             best = max(best, val)  
-            alpha = max(alpha, best)  
+            alpha = max(alpha, best)
   
             # Alpha Beta Pruning  
             if beta <= alpha:  
@@ -49,7 +49,7 @@ def minimax(depth, nodeIndex, maximizingPlayer,
 # Driver Code  
 if __name__ == "__main__":  
    
-    values = [3, 5, 6, 9, 1, 2, 0, -1]   
+    values = [0, 1, 2, 3, 4, 5, 6, 7, 8]
     print("The optimal value is :", minimax(0, 0, True, values, MIN, MAX))  
       
 # This code is contributed by Rituraj Jain 
