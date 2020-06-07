@@ -13,3 +13,9 @@ Luego realiza 1000 iteraciones intentando buscar el mejor camino del viajero e i
 
 
 ![All text](https://github.com/dabc312GitHub/IA_projects/blob/master/lab_4/viajero/mejor.png)
+
+
+Al final muestra en una pantalla de OpenGL la gráfica del mejor camino encontrado.
+
+
+![All text](https://github.com/dabc312GitHub/IA_projects/blob/master/lab_4/viajero/grafica.png)
